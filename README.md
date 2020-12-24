@@ -6,12 +6,12 @@ with balloon - yescrypt - yescryptR8 - yescryptR16 - yescryptR32 support trimmed
 Requires a YiiMP Server installation.
 
 ```
-git clone https://github.com/DirtyHarryDev/stratum-yescrypt.git
+git clone https://github.com/DirtyHarryDev/stratum-lowdiff.git
 ```
 
 * Compile
 ```
-cd stratum-yescrypt/iniparser
+cd stratum-lowdiff/iniparser
 make
 cd ..
 make
