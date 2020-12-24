@@ -1,5 +1,5 @@
 # Stratum for YiiMP
-with yescrypt - yescryptR8 - yescryptR16 - yescryptR32 support trimmed for Goldcash
+with balloon - yescrypt - yescryptR8 - yescryptR16 - yescryptR32 support trimmed for low difficulty shares
 
 ## ▶️ Installation
 
@@ -19,7 +19,7 @@ make
 
 * Move stratum file
 ```
-sudo mv stratum /home/yiimp-data/yiimp/site/stratum/stratum_yescrypt
+sudo mv stratum /home/yiimp-data/yiimp/site/stratum/stratum_lowdiff
 ```
 
-After run addport modify run.sh with stratum_yescrypt
+After run addport modify run.sh with stratum_lowdiff
