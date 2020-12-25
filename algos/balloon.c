@@ -23,10 +23,12 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
 
 #define BUFLEN (1 << 18)
 #define EXPROUNDS (BUFLEN / 32)
 #define BLOCKSIZE (8 * sizeof(uint32_t))
+#define nullptr ((void*)0)
 
 #ifdef __AES__
 
